@@ -1,0 +1,63 @@
+/*prices*/
+.prices-content{
+    text-align: center;
+    margin-left: 30px;
+}
+.prices-item{
+    float: left;
+    width: 30%;
+    display: block;
+    border: 1px solid #e8e8e8;
+    padding: 30px 0;
+    color: #999;
+}
+.prices-item.mid{
+    margin: 0 5%;
+}
+.prices-item .span-plan{
+    display: block;
+    margin: 15px 0;
+}
+.prices-item li{
+    margin: 15px 0;
+    text-transform: capitalize;
+}
+.prices-item .circle{
+    border: 2px solid #6195ff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 20px;
+}
+.prices-item .h3-dollar{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    transition: color .5s;
+}
+.prices-item .span-month{
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    transition:color .5s;
+}
+.prices-item button{
+    margin: 10px 0;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: #6195ff;
+    border:2px solid #6195ff;
+    border-radius: 5px;
+}
+
+.prices-item:hover .h3-dollar,
+.prices-item:hover .span-month{
+    color: white;
+}
+.prices-item:hover .span-plan{
+    color: #6195ff;
+}

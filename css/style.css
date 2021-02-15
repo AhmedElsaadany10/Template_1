@@ -1,0 +1,109 @@
+/*general styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+}  
+.container{
+    width: 80%;
+    margin: auto;
+} 
+button{
+    font-family: inherit; /*to make font same to website*/
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: montserrat,s;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+/*to make opacity*/
+.opacity-hover{
+    transition: opacity .6s;
+}
+.opacity-hover:hover{
+    opacity: .7;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.section-title .section-title-h2{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.section-title .section-title-line{
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin:0 auto 70px;
+    border-radius: 50%;
+    background-color: #6195ff;
+}
+.padding-top-down{
+    padding: 60px 0;
+}
+/*to make effects*/
+.left-to-right-effect, 
+.top-to-bottom {
+    position: relative;
+}
+.left-to-right-effect::after, 
+.top-to-bottom::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #333;
+    z-index: -1;
+
+}
+.left-to-right-effect::after{
+    width: 0%;
+    height: 100%;
+    transition: width .6s;
+}
+
+.top-to-bottom::after{
+    height: 0;
+    width: 100%;
+    transition: height .6s;
+}
+.left-to-right-effect:hover:after{
+    
+    width: 100%;
+}
+.top-to-bottom:hover::after{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+/*Recent*/
+.recent{
+    background-color: #e9e9e9;
+    }
+    .recent-content{
+        overflow: hidden;
+    }
+    .recent-item{
+        width: 30%;
+        background-color: white;
+        display: inline-block;
+    }
+    .recent-item.mid{
+        margin: 0 4%;
+    }
+    .recent-item .recent-img img{
+        width: 100%;
+    }
+    .recent-item .recent-text{
+        padding: 15px;
+    }
+    .recent-text ul li{
+        display: inline-block;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    .recent-text ul li i{
+    color: #6195ff;
+    }
+    .recent-item h3,
+    .recent-item p,
+    .recent-item button{
+        margin:10px 0 ;
+    }
+    .recent-item p{
+        color: #999;
+    }
+    .recent-item button{
+        background-color: transparent;
+        border: 0;
+        color: #6195ff;
+    }

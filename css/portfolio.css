@@ -1,0 +1,80 @@
+/*portfolio*/
+.port{
+    background-color: #e9e9e9;
+}
+.port-content{
+    overflow: hidden;
+}
+.port-item.mid{
+    margin: 0 2%;
+}
+.port-item img{
+    width: 100%;
+} 
+.port-item{
+    float: left;
+    width: 32%;
+    margin-bottom: 10px ;
+    position: relative;
+    padding: 20px;
+}
+.port-item .port-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    text-align: center;
+    padding:130px 25px;
+    /*to make animation of layer*/
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s;
+}
+.port-item:hover .port-layer{
+    opacity: 1;
+    visibility: visible;
+}
+.port-item .port-layer .layer-span{
+    color: #6195ff;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+    /*to make animation of layer*/
+    position: relative;
+    top: 10px;
+    transition: top .5s;
+    transition-delay: .2s;
+}
+.port-item .port-layer .layer-h4{
+    color: white;
+    margin-bottom: 15px;
+    /*to make animation of layer*/
+    position: relative;
+    top: 10px;
+    transition: top .5s;
+    transition-delay: .3s;
+}
+.port-item a{
+    display: inline-block;
+    background-color: #6195ff;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    /*to make animation of layer*/
+    position: relative;
+    top: 10px;
+    transition: top .5s;
+    transition-delay: .3s;
+}
+/*to make animation of layer*/
+.port-item:hover .layer-span,
+.port-item:hover .layer-h4,
+.port-item:hover a{
+    top: 0;
+}
+.port-item .port-layer .icon{
+    color: white;
+    line-height: 40px;
+}

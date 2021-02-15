@@ -1,0 +1,66 @@
+/*number on image*/
+.num{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url("../images/images/background/background2.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.num-content{
+    overflow: hidden;
+    margin: auto;
+    padding: 100px 0;
+}
+.num-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.num-item .icon{
+    color: #6195ff;
+    margin: 10px 0;
+}
+.num-item h1,
+.num-item h4{
+    color: white;
+}
+
+/*person on image (Testimonial)*/
+.person{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(../images/images/background/background3.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.person-content{
+    overflow: hidden;
+    padding: 100px 0;
+    width: 80%;
+    margin: auto;
+}
+.person-item{
+    float: left;
+    width: 50%;
+    color: white;
+    padding: 0 15px;
+}
+.person-item .person-pro{
+    padding: 10px 2px 40px 100px;
+    position: relative;
+}
+.person-item .person-pro img{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    border-radius:50% ;
+}
+.person-item .person-pro h3{
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+.person-item .person-pro span{
+    color: #6195ff;
+}
+.person-item p{
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}

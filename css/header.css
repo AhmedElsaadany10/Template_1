@@ -1,0 +1,63 @@
+/*header*/
+header{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    z-index: 10;
+    height: 50px;
+}
+
+header .logo{
+    width: 40%;
+    float: left;
+}
+header .logo h2{
+    color: white;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+header .logo h2 span{
+    color: #6195ff;
+}
+header nav{
+    width: 60%;
+    float: left;
+    padding-left: 62px;
+}
+header nav  li{
+    display: inline-block;
+}
+header nav  li  a{
+    color: white;
+    font-size: 14px;
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+header nav  li  a.active::after 
+,header nav  li  a::after {
+    content: "";
+    display: block;
+    background-color: #6195ff;
+    height: 3px;
+    margin-top: 3px;
+    transition: width .5s;
+}
+header nav li a::after{
+    width: 0;
+}
+
+header nav  li  a.active::after 
+,header nav  li  a:hover::after{
+    width: 100%;
+}
+/* .dorpdown{
+    position: relative;
+}
+.dorpdown-menue{
+    position: absolute;
+    background-color: #6195ff;
+    width: 150px;
+} */
+
+/* end header */
